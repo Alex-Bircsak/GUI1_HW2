@@ -49,18 +49,19 @@ h1, h2 {
  /* Header */
 /**********/
 header {
-	/* Background */
+	/* Background: Right-justified image with color extending to the left */
 	background-color: rgb(0,0,50);
 	background-image: url("sunset.jpg");
 	background-position: right;
 	background-repeat: no-repeat;
-	/* Text */
+	/* Text (h1) */
 	color: white;
 }
   /******************/
  /* Navigation Bar */
 /******************/
 nav {
+	/* Spacing: Horizontally adjacent to the content */
 	float: left;
 	/* The navigation bar has a fixed width,
 	 while the content to the right of the navigation varies. */
@@ -72,6 +73,7 @@ nav ul {
 	list-style-type: none; /* Remove bullets */
 	padding-left: 20px;
 }
+/* Link Styling */
 nav a {
 	color: #000033;
 	text-decoration: none; /* Remove link underlines */
@@ -88,19 +90,19 @@ nav a:hover {
 #content {
 	/* Background */
 	background-color: white;
-	/* Spacing */
+	/* Spacing: Create a 190px wide pseudo-column sidebar. Left side is indented farther than the footer. */
 	margin-left: 190px;
 	padding: 20px;
 	padding-left: 30px;
 }
 #content ul {
-	/* Notice that the bulleted list uses as special bullet
-	 (included with your files as marker.gif),
+	/* Notice that the bulleted list uses as special bullet (included with your files as marker.gif),
 	  and note how that bullet aligns with the paragraph above it. */
 	list-style-image: url('marker.gif');
 	list-style-position: inside;
 }
 #content img {
+	/* Spacing: Left-justified with text wrapping */
 	float: left;
 	margin-right: 20px;
 }
